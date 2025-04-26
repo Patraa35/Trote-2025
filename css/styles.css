@@ -1,0 +1,582 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5d7cb6;
+    text-align: center;
+}
+header{
+    background: #0b1d6e;
+    color: white;
+    /* espaçamento interno 15px acim e abaixo, e 0px esquerda e direta*/
+    padding: 15px 0; 
+    font-size: 24px;
+}
+
+nav {
+    background-color: #5d7cb6;
+    padding: 10px;
+    display: flex; /* Flex Boxing */
+    /* alinhamento na horizontal - espaço entre os links */
+    justify-content: space-between;
+    /* alinhamento na vertical */
+    align-items: center;
+}
+#links-menu {
+    display: flex;
+    gap: 15px;
+}
+/* configura o estilo das âncoras que estão dentro do nav */
+nav a {
+    color: white; /* texto branco */
+    text-decoration: none; /* não faz decoração no link */
+    padding: 10px 15px; /* 10px é acima e abaixo 15px é esq e dir */
+    font-size: 18px; /* 18px de tamanho da fonte */
+    background: #0b1d6e; /* cor de fundo */
+    border-radius: 5px; /* borda com canto arredondado */
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-right: 5px; /* espaçamento externo à direita de 20px */
+    border-radius: 10px;
+}
+
+.container{
+    width: 80%;
+    /* 20px em cima e em baixo e automática èsquerda e direto*/
+    margin: 20px auto; 
+    background: white;
+    /* espaçamento interno é nos 4 lados */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+ol li{
+    padding-bottom: 10px;
+}
+table tr td {
+    padding: 20px;
+}
+
+table {
+    /* esp. externo de 0 acima e abaixo e automático esq. dir. */
+    margin: 0 auto; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+.laranja {
+    background-color: #ffa07a;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.preta {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.roxa {
+    background-color: #800080;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.verde {
+    background-color: #32cd32;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.vermelha {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.campos {
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #53157c;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Define a fonte padrão para o site */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Define a cor de fundo e a cor do texto para o site */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Define o estilo para os títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Define o estilo para os links */
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+/* Define o estilo para os botões */
+button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #23527c;
+}
+
+/* Define o estilo para as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+/* Define o estilo para as tabelas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Define o estilo para os formulários */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #337ab7;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #23527c;
+}
+
+
+
+
